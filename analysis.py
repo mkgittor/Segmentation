@@ -424,7 +424,7 @@ df_txn_daily_allmerch.index
 
 df_txn_daily_allmerch['Year'] = df_txn_daily_allmerch.index.year
 df_txn_daily_allmerch['Month'] = df_txn_daily_allmerch.index.month
-df_txn_daily_allmerch['Weekday Name'] = df_txn_daily_allmerch.index.weekday_name
+df_txn_daily_allmerch['Weekday Name'] = df_txn_daily_allmerch.index.weekday
 
 # Identify all categories in trasaction data
 
